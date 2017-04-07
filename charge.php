@@ -32,8 +32,8 @@ error_reporting(E_ALL);
 
 require_once("./sdk/lib/Simplify.php");
 
-Simplify::$publicKey = getenv('sbpb_NWJkNzc5M2YtMjBjZi00YjYxLWIzMTMtODRhMzVmOTc3ODA3');
-Simplify::$privateKey = getenv('AZr/s1l7XXBuQycMSgDEbfgh6FKDbi4lfI77Yi2xyfF5YFFQL0ODSXAOkNtXTToq');
+Simplify::$publicKey = 'sbpb_NWJkNzc5M2YtMjBjZi00YjYxLWIzMTMtODRhMzVmOTc3ODA3';
+Simplify::$privateKey = 'AZr/s1l7XXBuQycMSgDEbfgh6FKDbi4lfI77Yi2xyfF5YFFQL0ODSXAOkNtXTToq';
 
 
 if (!isset($_POST["amount"]) || !isset($_POST['simplifyToken'])) {
